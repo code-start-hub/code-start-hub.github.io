@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+초보 개발자가 개발 과정에서 겪는 경험과 지식을 기록하고 공유하는 공간
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+코딩 초보자의 노트에 오신 것을 환영합니다! 저는 코딩초보, 여러분과 같은 초보 개발자로서 개발 과정에서 겪는 다양한 경험과 지식을 이 블로그에 기록하고 공유합니다. 이 블로그는 코딩 학습의 여정에서 마주치는 사소한 어려움부터 중요한 개발 개념까지, 모든 것을 하나씩 배워가는 과정을 담고 있습니다. 코딩 초보자의 노트는 초보 프로그래머, 코딩 학습자, 그리고 개발 경험을 쌓고자 하는 모든 분들을 위한 공간입니다.
+
+여기서 여러분은 초보자로서 겪는 고통과 기쁨을 함께 나눌 수 있습니다. 코딩 기초, 프로그래밍 언어, 개발 환경 설정, 프레임워크 사용 등 다양한 주제에 대해 자세히 다루며, 실제 학습 과정에서 마주치는 문제와 해결 방법을 공유합니다. 코딩 초보자의 노트는 여러분이 코딩 학습을 조금 더 쉽게, 그리고 재미있게 이어갈 수 있도록 돕는 소중한 자원이 되기를 기대합니다.
+
+코딩 학습과 개발 경험을 쌓아가는 이 여정에 함께하세요!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@code-start-hub](mailto:code.astart@gmail.com)
