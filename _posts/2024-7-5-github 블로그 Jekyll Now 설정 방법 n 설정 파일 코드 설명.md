@@ -1,3 +1,9 @@
+---
+layout: post
+title: github 블로그 Jekyll Now 설정 방법 n 설정 파일 코드 설명
+render_with_liquid: false
+---
+
 Jekyll Now는 Jekyll 블로그를 간편하게 시작할 수 있도록 돕는 템플릿입니다. 명령어를 거의 사용하지 않고도 GitHub Pages에 블로그를 호스팅할 수 있습니다. 아래는 Jekyll Now를 설정하는 방법을 단계별로 설명한 것입니다:
 
 1. **Repository 포크하기**:
