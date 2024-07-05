@@ -259,7 +259,7 @@ github_username:  your_github
         <html> <!-- HTML 문서의 시작을 알립니다. -->
           <head> <!-- 문서의 머리말로, 메타데이터를 포함합니다. -->
             <!-- 페이지 제목을 설정합니다. 페이지에 제목이 있는 경우 그 제목을 사용하고, 사이트 이름과 설명을 추가합니다. -->
-            <title>{% raw %} {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+            <title>{% if page.title %}{{ page.title }} – {{ site.name }} – {{ site.description }}</title>
         
             <!-- meta.html 파일을 포함하여 메타데이터를 설정합니다. -->
             {% include meta.html %}
@@ -612,9 +612,10 @@ github_username:  your_github
 ### _includes 디렉토리
 
 - **analytics.html**
-    - **주석 포함 HTML Code** with Comments
+    - **HTML Code** with Comments
         
         ```html
+        {% raw %}
         {% if site.google_analytics %}
         	<!-- Google Analytics를 설정합니다 -->
         	<script>
@@ -631,7 +632,7 @@ github_username:  your_github
         	</script>
         	<!-- Google Analytics 설정 끝 -->
         {% endif %}
-        
+        {% endraw %}
         ```
         
     - Explanation
