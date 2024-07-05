@@ -32,7 +32,7 @@ github_username:  your_github
 
 ### 디렉토리 구조
 
-[Jekyll Now 디렉토리 트리](https://drive.google.com/file/d/1TSM7zuymX439yejMeRO7U-s8HmGQ-FmS/view?usp=sharing)
+![Jekyll Now 디렉토리 트리](https://drive.google.com/uc?export=view&id=1TSM7zuymX439yejMeRO7U-s8HmGQ-FmS)
 
 ## 1) config 파일 (YAML)
 
