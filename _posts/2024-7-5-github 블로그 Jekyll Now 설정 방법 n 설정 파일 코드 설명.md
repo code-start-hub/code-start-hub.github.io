@@ -634,7 +634,9 @@ github_username:  your_github
         이 HTML 코드 블록은 Jekyll 사이트에 Google Analytics를 설정하기 위한 것입니다. Google Analytics는 웹사이트의 방문자 트래픽을 추적하고 분석하는 도구입니다. 이 코드는 사이트의 설정 파일에 `google_analytics` 값이 있을 때만 실행됩니다.
         
     - Usage
+        {% raw %}
         - **`{% if site.google_analytics %}`**: Liquid 템플릿 언어의 조건문으로, `google_analytics` 설정이 있는 경우에만 코드를 실행합니다.
+        {% endraw %}
         - **`<script>`**: 자바스크립트 코드를 포함하는 HTML 요소입니다.
         - **Google Analytics**: 웹사이트 트래픽 분석 도구입니다.
         - **`ga`**: Google Analytics 추적기를 설정하고 데이터를 전송하는 함수입니다.
@@ -699,7 +701,9 @@ github_username:  your_github
         이 HTML 코드는 Disqus 댓글 시스템을 웹 페이지에 통합하는 기능을 합니다. Disqus는 웹사이트에 댓글 기능을 추가하는 서비스입니다. 이 코드는 사이트 설정에 `disqus` 값이 있을 때만 실행됩니다.
         
     - Key Terms
+        {% raw %}
         - **`{% if site.disqus %}`**: Liquid 템플릿 언어의 조건문으로, `site.disqus` 설정이 있는 경우에만 코드를 실행합니다.
+        {% endraw %}
         - **`<div>`**: HTML의 블록 요소로, 다른 요소들을 그룹화합니다.
         - **`<script>`**: 자바스크립트 코드를 포함하는 HTML 요소입니다.
         - **`disqus_shortname`**: Disqus 사이트 설정에서 제공하는 고유한 사이트 식별자입니다.
