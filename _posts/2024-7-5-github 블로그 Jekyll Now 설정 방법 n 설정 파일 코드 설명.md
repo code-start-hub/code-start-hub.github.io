@@ -198,7 +198,9 @@ github_username:  your_github
         
     - **Key Terms**
         - **`<div>`**: HTML의 블록 요소로, 컨테이너 역할을 하여 다른 요소들을 그룹화합니다.
+        {% raw %}
         - **`{% for post in site.posts %}`**: Jekyll 템플릿 언어인 Liquid의 구문으로, 사이트의 모든 포스트를 반복 처리합니다.
+        {% endraw %}
         - **`<article>`**: 독립적으로 구분할 수 있는 콘텐츠 블록을 나타내는 HTML5 요소입니다.
         - **`<h1>`**: HTML에서 가장 중요한 제목을 나타냅니다.
         - **`<a>`**: 하이퍼링크를 생성하는 HTML 요소입니다.
