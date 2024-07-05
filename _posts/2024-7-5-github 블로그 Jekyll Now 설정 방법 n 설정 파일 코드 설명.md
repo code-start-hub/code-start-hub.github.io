@@ -13,7 +13,7 @@ Jekyll Now는 Jekyll 블로그를 간편하게 시작할 수 있도록 돕는 �
 6. **추가 기능 설정**:
     - 필요에 따라 댓글 서비스(예: Disqus)를 연동하거나[5][6], 태그 기능을 추가할 수 있습니다[1]. 각 기능의 설정 방법은 공식 문서나 관련 블로그 포스트를 참고하여 설정할 수 있습니다.
 
-### 예제: `_config.yml` 파일 설정
+#### 예제: `_config.yml` 파일 설정
 
 ```yaml
 title: 나의 블로그
@@ -32,7 +32,7 @@ github_username:  your_github
 
 ### 디렉토리 구조
 
-![Jekyll Now 디렉토리 트리](https://drive.google.com/uc?export=view&id=1TSM7zuymX439yejMeRO7U-s8HmGQ-FmS)
+![Jekyll now_directory tree](https://drive.google.com/uc?export=view&id=1tGRs_CBrt9f26-S797kNZBxSQ2CmJC70)
 
 ## 1) config 파일 (YAML)
 
