@@ -32,9 +32,7 @@ github_username:  your_github
 
 ### 디렉토리 구조
 
-![Jekyll-now_directory-tree](https://drive.google.com/uc?export=view&id=1tGRs_CBrt9f26-S797kNZBxSQ2CmJC70)
-
-<img src="https://drive.google.com/uc?export=view&id=1tGRs_CBrt9f26-S797kNZBxSQ2CmJC70" width="200" alt="Jekyll-now_directory-tree">
+<img src="https://drive.google.com/uc?export=view&id=1tGRs_CBrt9f26-S797kNZBxSQ2CmJC70" width="300" alt="Jekyll-now_directory-tree">
 
 ## 1) config 파일 (YAML)
 
@@ -228,11 +226,13 @@ github_username:  your_github
         - **포스트 필터링**: 특정 카테고리나 태그에 따라 포스트를 필터링하여 표시할 수 있습니다.
             
             ```html
+            {% raw %}
             {% for post in site.posts %}
               {% if post.category == "tech" %}
                 <!-- 포스트 내용 -->
               {% endif %}
             {% endfor %}
+            {% endraw %}
             ```
             
         - **스타일 개선**: CSS를 사용하여 포스트 목록의 스타일을 개선할 수 있습니다. 예를 들어, 포스트 제목의 색상이나 크기를 변경할 수 있습니다.
@@ -255,10 +255,11 @@ github_username:  your_github
         
         ```html
         <!DOCTYPE html> <!-- HTML 문서의 유형을 선언합니다. -->
+        {% raw %}
         <html> <!-- HTML 문서의 시작을 알립니다. -->
           <head> <!-- 문서의 머리말로, 메타데이터를 포함합니다. -->
             <!-- 페이지 제목을 설정합니다. 페이지에 제목이 있는 경우 그 제목을 사용하고, 사이트 이름과 설명을 추가합니다. -->
-            <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+            <title>{% raw %} {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
         
             <!-- meta.html 파일을 포함하여 메타데이터를 설정합니다. -->
             {% include meta.html %}
@@ -323,7 +324,7 @@ github_username:  your_github
             {% include analytics.html %}
           </body>
         </html> <!-- HTML 문서의 끝을 알립니다. -->
-        
+        {% endraw %}
         ```
         
     - Explanation
