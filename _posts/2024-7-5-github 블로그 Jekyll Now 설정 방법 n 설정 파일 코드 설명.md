@@ -2,6 +2,8 @@
 layout: post
 title: github 블로그 Jekyll Now 설정 방법 n 설정 파일 코드 설명
 render_with_liquid: false
+categories: [블로그]
+tags: [설정, jekyll]
 ---
 
 Jekyll Now는 Jekyll 블로그를 간편하게 시작할 수 있도록 돕는 템플릿입니다. 명령어를 거의 사용하지 않고도 GitHub Pages에 블로그를 호스팅할 수 있습니다. 아래는 Jekyll Now를 설정하는 방법을 단계별로 설명한 것입니다:
@@ -232,13 +234,13 @@ github_username:  your_github
         - **포스트 필터링**: 특정 카테고리나 태그에 따라 포스트를 필터링하여 표시할 수 있습니다.
             
             ```html
-            {% raw %}
+            
             {% for post in site.posts %}
               {% if post.category == "tech" %}
                 <!-- 포스트 내용 -->
               {% endif %}
             {% endfor %}
-            {% endraw %}
+            
             ```
             
         - **스타일 개선**: CSS를 사용하여 포스트 목록의 스타일을 개선할 수 있습니다. 예를 들어, 포스트 제목의 색상이나 크기를 변경할 수 있습니다.
@@ -261,7 +263,7 @@ github_username:  your_github
         
         ```html
         <!DOCTYPE html> <!-- HTML 문서의 유형을 선언합니다. -->
-        {% raw %}
+        
         <html> <!-- HTML 문서의 시작을 알립니다. -->
           <head> <!-- 문서의 머리말로, 메타데이터를 포함합니다. -->
             <!-- 페이지 제목을 설정합니다. 페이지에 제목이 있는 경우 그 제목을 사용하고, 사이트 이름과 설명을 추가합니다. -->
@@ -330,7 +332,7 @@ github_username:  your_github
             {% include analytics.html %}
           </body>
         </html> <!-- HTML 문서의 끝을 알립니다. -->
-        {% endraw %}
+        
         ```
         
     - Explanation
@@ -621,7 +623,7 @@ github_username:  your_github
     - **HTML Code** with Comments
         
         ```html
-        {% raw %}
+        
         {% if site.google_analytics %}
         	<!-- Google Analytics를 설정합니다 -->
         	<script>
@@ -638,7 +640,7 @@ github_username:  your_github
         	</script>
         	<!-- Google Analytics 설정 끝 -->
         {% endif %}
-        {% endraw %}
+        
         ```
         
     - Explanation
@@ -646,9 +648,7 @@ github_username:  your_github
         이 HTML 코드 블록은 Jekyll 사이트에 Google Analytics를 설정하기 위한 것입니다. Google Analytics는 웹사이트의 방문자 트래픽을 추적하고 분석하는 도구입니다. 이 코드는 사이트의 설정 파일에 `google_analytics` 값이 있을 때만 실행됩니다.
         
     - Usage
-        {% raw %}
         - **`{% if site.google_analytics %}`**: Liquid 템플릿 언어의 조건문으로, `google_analytics` 설정이 있는 경우에만 코드를 실행합니다.
-        {% endraw %}
         - **`<script>`**: 자바스크립트 코드를 포함하는 HTML 요소입니다.
         - **Google Analytics**: 웹사이트 트래픽 분석 도구입니다.
         - **`ga`**: Google Analytics 추적기를 설정하고 데이터를 전송하는 함수입니다.
